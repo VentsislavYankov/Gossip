@@ -5,10 +5,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
         <link href="styles.css" rel="stylesheet" type="text/css">
         <link href='https://css.gg/user.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
             <div class="logo">GOSSIP</div>
+            <div class="header-actions"></div>
+            <a href ="Home.html">
+            <i class="fa fa-home" style="font-size:24px;color:whitesmoke""></i>
+            </a>
+            <a href="Profile.html">
+            <i class="fa fa-user" style="font-size:24px;color:whitesmoke"></i>
+            </a>
+            <a href="#" class="secondary-button">Logout</a>
         </header>
         <main class="home-main">
             <div class="timeline-container">
@@ -16,7 +25,16 @@
                     <h1>GOSSIP</h1>
                     <div class="gossip">
                         <div class="profile-pic">
-                           <i class="gg-user"></i>
+                            <i class="fa fa-user" style="font-size:24px"></i>
+                        </div>
+                        <div class="message">
+                            <p>Hello,this is my first post!</p>
+                            <p class="metadata">Posted by Dan on 20/01/2022</p>
+                        </div>
+                    </div>
+                    <div class="gossip">
+                        <div class="profile-pic">
+                            <i class="fa fa-user" style="font-size:24px"></i>
                         </div>
                         <div class="message">
                             <p>Hello,this is my first post!</p>
@@ -26,6 +44,16 @@
                 </div>
                 <div class="recent-users-feed">
                     <h2>Recent users</h2>
+                    <div class="new-user">
+                        <div class="profile-pic">
+                            <i class="fa fa-user" style="font-size:24px"></i>
+                            
+                        </div>
+                        <div class="name">
+                            <p>Koko</p>
+                            <a href="#" class="primary-button">Follow</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
